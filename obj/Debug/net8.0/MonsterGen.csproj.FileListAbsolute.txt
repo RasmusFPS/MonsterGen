@@ -1,0 +1,15 @@
+/home/rasmusfps/Code/MonsterGen/bin/Debug/net8.0/MonsterGen
+/home/rasmusfps/Code/MonsterGen/bin/Debug/net8.0/MonsterGen.deps.json
+/home/rasmusfps/Code/MonsterGen/bin/Debug/net8.0/MonsterGen.runtimeconfig.json
+/home/rasmusfps/Code/MonsterGen/bin/Debug/net8.0/MonsterGen.dll
+/home/rasmusfps/Code/MonsterGen/bin/Debug/net8.0/MonsterGen.pdb
+/home/rasmusfps/Code/MonsterGen/obj/Debug/net8.0/MonsterGen.GeneratedMSBuildEditorConfig.editorconfig
+/home/rasmusfps/Code/MonsterGen/obj/Debug/net8.0/MonsterGen.AssemblyInfoInputs.cache
+/home/rasmusfps/Code/MonsterGen/obj/Debug/net8.0/MonsterGen.AssemblyInfo.cs
+/home/rasmusfps/Code/MonsterGen/obj/Debug/net8.0/MonsterGen.csproj.CoreCompileInputs.cache
+/home/rasmusfps/Code/MonsterGen/obj/Debug/net8.0/MonsterGen.sourcelink.json
+/home/rasmusfps/Code/MonsterGen/obj/Debug/net8.0/MonsterGen.dll
+/home/rasmusfps/Code/MonsterGen/obj/Debug/net8.0/refint/MonsterGen.dll
+/home/rasmusfps/Code/MonsterGen/obj/Debug/net8.0/MonsterGen.pdb
+/home/rasmusfps/Code/MonsterGen/obj/Debug/net8.0/MonsterGen.genruntimeconfig.cache
+/home/rasmusfps/Code/MonsterGen/obj/Debug/net8.0/ref/MonsterGen.dll
