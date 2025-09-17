@@ -5,47 +5,46 @@ namespace MonsterGen;
 
 class Program
 {
-    class Monster()
-    {
-        public int atk;
-        public int hp;
-        public string name;
-    }
+
     static void Main(string[] args)
     {
-        Console.WriteLine("Welcome to the monsterGen \nDo you want to create a monster [Y/n]");
-        string input = Console.ReadLine().ToLower();
-        if (input != "y")
+        var monster1 = CreateMonster();
+        var monster2 = CreateMonster();
+
+        Console.WriteLine($"Name:{monster1.name} \natk:{monster1.atk} \nhp:{monster1.hp}");
+        Console.WriteLine($"Name:{monster2.name} \natk:{monster2.atk} \nhp:{monster2.hp}");
+
+
+
+        Attack(monster1.name, monster1.atk);
+        Console.WriteLine();
+        Attack(monster2.name, monster2.atk);
+
+    }
+
+    static (string name, int atk, int hp) CreateMonster()
+    {
+        Random rnd = new Random();
+        string[] Monsternames = { "slog", "cho", "chud", "gall", "Murky", "Bronzer" };
+        int Nameindex = rnd.Next(Monsternames.Length);
+        string name = Monsternames[Nameindex];
+        int atk = rnd.Next(1, 10);
+        int hp = rnd.Next(10, 100);
+        return (name, atk, hp);
+    }
+
+    static void Attack(string name, int atk)
+    {
+        Random random = new Random();
+        int dmg = random.Next(0, atk);
+
+        if (dmg == 0)
         {
-            return;
+            Console.WriteLine($"Monster {name}! Missed!");
         }
         else
         {
-            MonsterGenerator();
+            Console.WriteLine($"Monster {name}! Does {dmg} Damage!");
         }
-
     }
-
-
-    public static void MonsterGenerator()
-    {
-        Random rnd = new Random();
-        string[] monstersN = { "Bronzor", "Chramander", "gible", "Frog" };
-        int Names = rnd.Next(monstersN.Length);
-        int atk = rnd.Next(1, 10);
-        int hp = rnd.Next(10, 50);
-        string name = monstersN[Names];
-
-        Console.WriteLine($"Name:{name}");
-        Console.WriteLine($"HP:{hp}");
-        Console.WriteLine($"ATK:{atk}");
-
-    }
-
-    public static void Attack()
-    {
-        
-    }
-
-
 }
