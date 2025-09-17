@@ -36,7 +36,7 @@ class Program
     static void Attack(string name, int atk)
     {
         Random random = new Random();
-        int dmg = random.Next(0, atk);
+        int dmg = random.Next(0, atk+1);
 
         if (dmg == 0)
         {

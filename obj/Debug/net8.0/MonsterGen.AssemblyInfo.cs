@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonsterGen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+169e32b0e2d8128aabbdb27dd22f09713504e02e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9158645d690b68f5490b9d2f87fcf9e498976d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonsterGen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonsterGen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
